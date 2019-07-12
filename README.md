@@ -8,7 +8,7 @@ Bitcoin Cash has script functionality, such as OP_CHECKDATASIG which is unique a
 
 ## Examples
 
-Complete examples are located in the [/examples]('https://github.com/jeton-tech/jeton-lib/tree/master/examples') directory.
+Complete examples are located in the [/examples](https://github.com/jeton-tech/jeton-lib/tree/master/examples) directory.
 
 ### Include jeton-lib wherever you use bitcore-lib-cash
 
