@@ -1,2 +1,2 @@
 # jeton-lib
-Extension of bitcore-lib-cash for complex Bitcoin Cash transaction types
+Extension of bitcore-lib-cash for advanced Bitcoin Cash transaction types
