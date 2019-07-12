@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Bitcoin Cash has script functionality, such as OP_CHECKDATASIG which is unique among Bitcoin forks. This functionality allows Bitcoin Cash users to particpate in on-chain, non-custodial escrow transactions (and more). Jeton Lib extends the popular [bitcore-cash-lib](https://github.com/bitpay/bitcore/tree/master/packages/bitcore-lib-cash) library to allow for easy creation of transactions which leverage the powerful capabilities of Bitcoin Cash.
+Bitcoin Cash has script functionality, such as OP_CHECKDATASIG which is unique among Bitcoin forks. This functionality allows Bitcoin Cash users to particpate in on-chain, non-custodial escrow transactions (and more). Jeton Lib extends the popular [bitcore-lib-cash](https://github.com/bitpay/bitcore/tree/master/packages/bitcore-lib-cash) library to allow for easy creation of transactions which leverage the powerful capabilities of Bitcoin Cash.
 
 ## Examples
 
