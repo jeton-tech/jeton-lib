@@ -86,7 +86,7 @@ var fundEscrowTx = new Transaction()
 var escrowUtxo = Transaction.utxoFromTxOutput(fundEscrowTx, 0)
 
 // Make Transaction from escrow UTXO
-sighash = (Signature.SIGHASH_ALL | Signature.SIGHASH_FORKID)
+var sighash = (Signature.SIGHASH_ALL | Signature.SIGHASH_FORKID)
 
 var spendEscrowTx = new Transaction()
 .from(escrowUtxo)
