@@ -6,6 +6,21 @@
 
 Bitcoin Cash has script functionality, such as OP_CHECKDATASIG which is unique among Bitcoin forks. This functionality allows Bitcoin Cash users to particpate in on-chain, non-custodial escrow transactions (and more). Jeton Lib extends the popular [bitcore-lib-cash](https://github.com/bitpay/bitcore/tree/master/packages/bitcore-lib-cash) library to allow for easy creation of transactions which leverage the powerful capabilities of Bitcoin Cash.
 
+## Get Started
+
+```sh
+npm install jeton-lib
+```
+
+Adding Jeton Lib to your app's `package.json`:
+
+```json
+"dependencies": {
+    "jeton-lib": "^1.0.0",
+    ...
+}
+```
+
 ## Examples
 
 Complete examples are located in the [/examples](https://github.com/jeton-tech/jeton-lib/tree/master/examples) directory.
@@ -72,7 +87,7 @@ var fundEscrowTx = new Transaction()
 var escrowUtxo = Transaction.utxoFromTxOutput(fundEscrowTx, 0)
 
 // Make Transaction from escrow UTXO
-sighash = (Signature.SIGHASH_ALL | Signature.SIGHASH_FORKID)
+var sighash = (Signature.SIGHASH_ALL | Signature.SIGHASH_FORKID)
 
 var spendEscrowTx = new Transaction()
 .from(escrowUtxo)
