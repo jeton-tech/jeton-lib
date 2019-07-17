@@ -35,12 +35,13 @@ var refPriv = new PrivateKey('L5FDo3MEb2QNs2aQJ5DVGSDE5eBzVsgZny15Ri649RjysWAeLk
 var refpk = refPriv.toPublicKey();
 
 // Create the output script
+// parties[].pubKey can be an instance of PublicKey or Address
 var outputScriptData = {
     refereePubKey: refpk,
     parties: [
-        {message: 'player1wins', pubKey: pub1},
-        {message: 'player2wins', pubKey: pub2},
-        {message: 'player3wins', pubKey: pub3}
+        {message: 'player1wins', pubKey: pub1.toAddress()},
+        {message: 'player2wins', pubKey: pub2.toAddress()},
+        {message: 'player3wins', pubKey: pub3.toAddress()}
     ]
 }
 

@@ -39,9 +39,9 @@ var splitUtxos = [utxoForPub2, utxoForPub3]
 var outputScriptData = {
     refereePubKey: refpk,
     parties: [
-        {message: 'player1wins', pubKey: pub1},
-        {message: 'player2wins', pubKey: pub2},
-        {message: 'player3wins', pubKey: pub3}
+        {message: 'player1wins', pubKey: pub1.toAddress()},
+        {message: 'player2wins', pubKey: pub2.toAddress()},
+        {message: 'player3wins', pubKey: pub3.toAddress()}
     ]
 }
 
