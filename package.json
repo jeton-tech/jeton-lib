@@ -1,6 +1,6 @@
 {
   "name": "jeton-lib",
-  "version": "1.4.6",
+  "version": "1.5.0",
   "description": "Extension of bitcore-lib-cash for advanced Bitcoin Cash transaction types",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bitcore-lib-cash": "^9.0.0"
+    "bitcore-lib-cash": "^9.0.0",
+    "safe-buffer": "^5.2.1"
   }
 }

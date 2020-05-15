@@ -13,4 +13,9 @@ jeton.escrow = {}
 jeton.escrow.InputScript = require('./lib/escrow/InputScript')
 jeton.escrow.OutputScript = require('./lib/escrow/OutputScript')
 
+// Threshold
+jeton.threshold = require('./lib/threshold')
+//jeton.escrow.InputScript = require('./lib/escrow/InputScript')
+//jeton.escrow.OutputScript = require('./lib/escrow/OutputScript')
+
 module.exports = jeton
