@@ -16,7 +16,7 @@ Adding Jeton Lib to your app's `package.json`:
 
 ```json
 "dependencies": {
-    "jeton-lib": "^1.5.0",
+    "jeton-lib": "^1.6.2",
     ...
 }
 ```
