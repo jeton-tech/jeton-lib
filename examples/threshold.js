@@ -52,7 +52,6 @@ let verify = ThresholdMessage.verifySignature(message, oracleSig, oraclePub)
 // Create the output script
 var outputScriptData = {
     threshold: 218,
-    blockheight: blockheight,
     oraclePubKey: oraclePub,
     parties: {
         gt: {pubKey: pub1},
@@ -103,7 +102,7 @@ sighash = (Signature.SIGHASH_ALL | Signature.SIGHASH_FORKID)
 var spendTx = new Transaction()
 .from(escrowUtxo)
 .to(priv1.toAddress(), 19000)
-.lockUntilBlockHeight(660211) // Must be after the blockheight in the script
+.lockUntilBlockHeight(blockheight) // Must be after the blockheight in the script
 
 //console.log(spendTx.toObject())
 
