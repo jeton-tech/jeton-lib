@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bitcore-lib-cash": "^9.0.0",
+    "bitcore-lib-cash": "^8.0.0",
     "safe-buffer": "^5.2.1"
   }
 }
