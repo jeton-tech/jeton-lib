@@ -109,7 +109,7 @@ var spendTx = new Transaction()
 // Sign CDS input at index 0 as player 2
 spendTx.signThreshold(0, priv1, message, oracleSig, outScript.toScript(), sighash)
 
-// console.log(spendTx.toObject())
+console.log(spendTx.toObject())
 console.log('estimated size', spendTx._estimateSize())
 console.log('verify tx full sig', spendTx.verify())
 console.log('jeton signature verified?', spendTx.verifyScriptSig(0))
