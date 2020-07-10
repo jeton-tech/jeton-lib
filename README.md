@@ -16,7 +16,7 @@ Adding Jeton Lib to your app's `package.json`:
 
 ```json
 "dependencies": {
-    "jeton-lib": "^2.0.1",
+    "jeton-lib": "^2.1.0",
     ...
 }
 ```
@@ -24,6 +24,11 @@ Adding Jeton Lib to your app's `package.json`:
 ## Examples
 
 Complete examples are located in the [/examples](https://github.com/jeton-tech/jeton-lib/tree/master/examples) directory.
+
+Examples include:
+* Multi-party escrow with an arbitrary message signed by an oracle
+* Multi-party escrow with a price message signed by an oracle
+* Covenant escrow - multisig, anyone-can-spend, and proportional
 
 ### Include jeton-lib wherever you use bitcore-lib-cash
 
