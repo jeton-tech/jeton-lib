@@ -12,7 +12,7 @@ Contained in this directory are complete examples for funding and spending of th
 
 [covenant/multisig.js](https://github.com/jeton-tech/jeton-lib/tree/master/examples/covenant/multisig.js) - A covenant escrow requiring multiple signatures in which specific amounts must be paid to specific addresses
 
-[covenant/anyonecanpay.js](https://github.com/jeton-tech/jeton-lib/tree/master/examples/covenant/anyonecanpay.js) - A covenant escrow in which specific amounts must be paid to specific addresses and any private key holder can sign
+[covenant/anyonecanspend.js](https://github.com/jeton-tech/jeton-lib/tree/master/examples/covenant/anyonecanspend.js) - A covenant escrow in which specific amounts must be paid to specific addresses and any private key holder can sign
 
 [covenant/proportional.js](https://github.com/jeton-tech/jeton-lib/tree/master/examples/covenant/proportional.js) - A covenant escrow in which amounts must be paid to specific addresses in a prescribed proportion (prorata) and any private key holder can sign
 
