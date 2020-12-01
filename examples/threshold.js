@@ -106,7 +106,7 @@ var spendTx = new Transaction()
 
 //console.log(spendTx.toObject())
 
-// Sign CDS input at index 0 as player 2
+// Sign CDS input at index 0 as player 1
 spendTx.signThreshold(0, priv1, message, oracleSig, outScript.toScript(), sighash)
 
 console.log(spendTx.toObject())
